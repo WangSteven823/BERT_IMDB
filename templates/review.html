@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>movie review</title>
+  </head>
+  <body>
+    <form method='post' action={{ url_for('predict') }}>
+      <p>Review: <textarea id="review" name="review" cols="90" rows="10"></textarea></p>
+      <input type="submit" value="Submit"/>
+    </form>
+    <p>Enter review of moive and submit, get the setiment of review</p>
+  </body>
+</html>
